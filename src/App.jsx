@@ -3,6 +3,7 @@ import Background from "./Components/Background/Background.jsx";
 import Navbar from "./Components/Navbar/Navbar.jsx";
 import Hero from "./Components/Hero/Hero.jsx";
 import Footer from "./Components/Footer/Footer.jsx"
+import Forms from "./Components/Forms/Forms.jsx"
 
 const App = () => {
   let heroData = [
@@ -30,6 +31,7 @@ const App = () => {
       setHeroCount={setHeroCount}
       playStatus={playStatus}
       />
+      <Forms/>
       <Footer/>
     </div>
   )
